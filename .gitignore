@@ -9,7 +9,7 @@
 __pycache__
 
 # secret file
-*/settings.py
+*/secret_settings.py
 
 # ide specifics
 .idea/
