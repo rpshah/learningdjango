@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>Recent Questions</title>
+
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'polls/styles.css' %}" />
 </head>
 <body>
 	{% if questions_list %}
